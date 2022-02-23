@@ -1,0 +1,62 @@
+package com.digioutsource.assessment.stepDefinition;
+
+
+import com.digioutsource.assessment.utils.TestBase;
+import cucumber.api.java.After;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
+import org.testng.Assert;
+
+public class VerifyNegativeScenairosLoginSteps {
+    @Given("^: a user has loaded the website$")
+    public void _a_user_has_loaded_the_website()  {
+
+        TestBase.setUp();
+        Assert.assertEquals(TestBase.driver.getTitle(),"Scores & Fixtures - Football - BBC Sport");
+
+    }
+
+    @When("^:  a user clicks on the sign in link on the nav top bar$")
+    public void _a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar(){
+        TestBase.driver.findElement(By.id("idcta-username")).click();
+
+    }
+    @And("^: a user is redirected to sign in page$")
+    public void _a_user_is_redirected_to_sign_in_page()  {
+        TestBase.setUp();
+        Assert.assertEquals(TestBase.driver.getTitle(),"BBC – Sign in");
+    }
+
+    @When("^: a user enters unregistered \"([^\"]*)\"$")
+    public void _a_user_enters_unregistered_something(String username) {
+        TestBase.driver.findElement(By.id("user-identifier-input")).sendKeys(username);
+    }
+
+    @When("^: a user enters invalid \"([^\"]*)\"$")
+    public void _a_user_enters_invalid_something(String password){
+        TestBase.driver.findElement(By.id("password-input")).sendKeys(password);
+
+    }
+
+    @When("^: a user clicks on sign in button$")
+    public void _a_user_clicks_on_sign_in_button() {
+        TestBase.driver.findElement(By.id("submit-button")).click();
+    }
+
+    @Then("^an error is displayed$")
+    public void an_error_is_displayed(){
+
+        Assert.assertEquals(TestBase.driver.findElement(By.xpath("//*[@id=\"form-message-password\"]/p")),"Sorry, that password is too short. It needs to be eight characters or more.");
+
+    }
+    @After
+    public static void tearDown(){
+        TestBase.driver.quit();
+    }
+
+
+
+}

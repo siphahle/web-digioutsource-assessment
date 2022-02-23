@@ -237,7 +237,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_has_launched_the_browser()"
 });
 formatter.result({
-  "duration": 15099366400,
+  "duration": 16879490900,
   "error_message": "java.lang.AssertionError: expected [Protractor practice website - WebTables] but found [Scores \u0026 Fixtures - Football - BBC Sport]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.digioutsource.assessment.stepDefinition.AddUserSteps.a_user_has_launched_the_browser(AddUserSteps.java:18)\r\n\tat ✽.Given a user has launched the browser(addUser.feature:4)\r\n",
   "status": "failed"
 });
@@ -374,7 +374,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 717248600,
+  "duration": 725331800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 95300,
   "status": "passed"
 });
 formatter.scenario({
@@ -482,4 +486,277 @@ formatter.step({
 });
 formatter.match({
   "location": "AddUserSteps.a_user_has_launched_the_browser()"
+});
+formatter.result({
+  "duration": 14485765800,
+  "error_message": "java.lang.AssertionError: expected [Protractor practice website - WebTables] but found [Scores \u0026 Fixtures - Football - BBC Sport]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.digioutsource.assessment.stepDefinition.AddUserSteps.a_user_has_launched_the_browser(AddUserSteps.java:18)\r\n\tat ✽.Given a user has launched the browser(addUser.feature:4)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "User2",
+      "offset": 26
+    }
+  ],
+  "location": "AddUserSteps.a_user_checks_a_username(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "AddUserSteps.a_user_clicks_on_the_add_user_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "FName2",
+      "offset": 27
+    }
+  ],
+  "location": "AddUserSteps.a_user_populate_firstname(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "LName2",
+      "offset": 25
+    }
+  ],
+  "location": "AddUserSteps.a_user_populate_surname(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "User2",
+      "offset": 26
+    }
+  ],
+  "location": "AddUserSteps.a_user_populate_username(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Pass2",
+      "offset": 26
+    }
+  ],
+  "location": "AddUserSteps.a_user_populate_password(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Company BBB",
+      "offset": 25
+    }
+  ],
+  "location": "AddUserSteps.a_user_select_a_company(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Customer",
+      "offset": 22
+    }
+  ],
+  "location": "AddUserSteps.a_user_choose_a_role(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "customer@mail.com",
+      "offset": 23
+    }
+  ],
+  "location": "AddUserSteps.a_user_populate_email(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "083444",
+      "offset": 27
+    }
+  ],
+  "location": "AddUserSteps.a_user_populate_cellphone(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "AddUserSteps.a_user_saves_a_created_user()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "User2",
+      "offset": 34
+    }
+  ],
+  "location": "AddUserSteps.a_user_checks_if_a_user_is_added(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.after({
+  "duration": 694920000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 93100,
+  "status": "passed"
+});
+formatter.uri("verifyNegativeScenairosLogin.feature");
+formatter.feature({
+  "line": 1,
+  "name": "As a QA, I would like to verify all negative scenarios for login",
+  "description": "",
+  "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 2,
+  "name": "Scenario: Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it",
+  "description": "contains is as expected",
+  "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;scenario:-select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": ": a user has loaded the website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": ":  a user clicks on the sign in link on the nav top bar",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": ": a user is redirected to sign in page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": ": a user enters unregistered \"\u003cusername\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": ": a user enters invalid \"\u003cpassword\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": ": a user clicks on sign in button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "an error is displayed",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 12,
+  "name": "",
+  "description": "",
+  "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;scenario:-select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it;",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ],
+      "line": 13,
+      "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;scenario:-select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it;;1"
+    },
+    {
+      "cells": [
+        "ginger",
+        "123456"
+      ],
+      "line": 14,
+      "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;scenario:-select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Scenario: Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it",
+  "description": "contains is as expected",
+  "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;scenario:-select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": ": a user has loaded the website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": ":  a user clicks on the sign in link on the nav top bar",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": ": a user is redirected to sign in page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": ": a user enters unregistered \"ginger\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": ": a user enters invalid \"123456\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": ": a user clicks on sign in button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "an error is displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "VerifyNegativeScenairosLoginSteps._a_user_has_loaded_the_website()"
 });
