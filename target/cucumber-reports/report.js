@@ -1,4 +1,12 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("verifyNegativeScenairosLogin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("signInWithEmptyForm.feature");
+formatter.feature({
+  "line": 1,
+  "name": "As a QA, I would like to verify all negative scenarios for login",
+  "description": "Scenario : Scenario: Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it\r\ncontains is as expected\r\n  Given : a user loads the website\r\n  When :  a user clicks on the sign in link on the navigation top bar\r\n  When : a user clicks on sign in btn without entering username and password\r\n  Then : validation error messages are displayed",
+  "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login",
+  "keyword": "Feature"
+});
+formatter.uri("verifyNegativeScenairosLogin.feature");
 formatter.feature({
   "line": 1,
   "name": "As a QA, I would like to verify all negative scenarios for login",
@@ -117,14 +125,14 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_has_loaded_the_website()"
 });
 formatter.result({
-  "duration": 14247898300,
+  "duration": 13433298500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar()"
 });
 formatter.result({
-  "duration": 97271200,
+  "duration": 98096100,
   "status": "passed"
 });
 formatter.match({
@@ -137,7 +145,7 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_unregistered_something(String)"
 });
 formatter.result({
-  "duration": 3106626200,
+  "duration": 4446074600,
   "status": "passed"
 });
 formatter.match({
@@ -150,25 +158,29 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_invalid_something(String)"
 });
 formatter.result({
-  "duration": 89177300,
+  "duration": 90758400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 865261800,
+  "duration": 89728800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps.an_error_is_displayed()"
 });
 formatter.result({
-  "duration": 33160400,
+  "duration": 45817200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 677069900,
+  "duration": 690403600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 89100,
   "status": "passed"
 });
 });

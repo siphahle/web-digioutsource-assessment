@@ -1,6 +1,14 @@
 [
   {
     "line": 1,
+    "name": "As a QA, I would like to verify all negative scenarios for login",
+    "description": "Scenario : Scenario: Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it\r\ncontains is as expected\r\n  Given : a user loads the website\r\n  When :  a user clicks on the sign in link on the navigation top bar\r\n  When : a user clicks on sign in btn without entering username and password\r\n  Then : validation error messages are displayed",
+    "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login",
+    "keyword": "Feature",
+    "uri": "signInWithEmptyForm.feature"
+  },
+  {
+    "line": 1,
     "elements": [
       {
         "line": 13,
@@ -10,11 +18,20 @@
         "after": [
           {
             "result": {
-              "duration": 677069900,
+              "duration": 690403600,
               "status": "passed"
             },
             "match": {
               "location": "VerifyNegativeScenairosLoginSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 89100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInWithEmptyFormSteps.tearDown()"
             }
           }
         ],
@@ -23,7 +40,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14247898300,
+              "duration": 13433298500,
               "status": "passed"
             },
             "line": 4,
@@ -35,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 97271200,
+              "duration": 98096100,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 3106626200,
+              "duration": 4446074600,
               "status": "passed"
             },
             "line": 6,
@@ -68,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 89177300,
+              "duration": 90758400,
               "status": "passed"
             },
             "line": 7,
@@ -89,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 865261800,
+              "duration": 89728800,
               "status": "passed"
             },
             "line": 8,
@@ -101,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 33160400,
+              "duration": 45817200,
               "status": "passed"
             },
             "line": 9,
