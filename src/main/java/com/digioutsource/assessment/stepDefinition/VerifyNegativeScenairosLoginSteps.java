@@ -2,13 +2,12 @@ package com.digioutsource.assessment.stepDefinition;
 
 
 import com.digioutsource.assessment.utils.TestBase;
-import cucumber.api.java.After;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import cucumber.api.java.After;
 
 public class VerifyNegativeScenairosLoginSteps {
     @Given("^: a user has loaded the website$")
@@ -23,11 +22,6 @@ public class VerifyNegativeScenairosLoginSteps {
     public void _a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar(){
         TestBase.driver.findElement(By.id("idcta-username")).click();
 
-    }
-    @And("^: a user is redirected to sign in page$")
-    public void _a_user_is_redirected_to_sign_in_page()  {
-        TestBase.setUp();
-        Assert.assertEquals(TestBase.driver.getTitle(),"BBC – Sign in");
     }
 
     @When("^: a user enters unregistered \"([^\"]*)\"$")
@@ -49,14 +43,15 @@ public class VerifyNegativeScenairosLoginSteps {
     @Then("^an error is displayed$")
     public void an_error_is_displayed(){
 
-        Assert.assertEquals(TestBase.driver.findElement(By.xpath("//*[@id=\"form-message-password\"]/p")),"Sorry, that password is too short. It needs to be eight characters or more.");
+        String actual_msg= TestBase.driver.findElement(By.xpath("//*[@id=\"form-message-password\"]/p")).getText();
+        String expect="Sorry, that password is too short. It needs to be eight characters or more.";
+        Assert.assertEquals(actual_msg, expect);
 
     }
     @After
     public static void tearDown(){
         TestBase.driver.quit();
     }
-
 
 
 }

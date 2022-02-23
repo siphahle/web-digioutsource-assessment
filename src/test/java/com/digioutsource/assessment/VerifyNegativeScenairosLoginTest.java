@@ -12,6 +12,6 @@ import org.junit.runner.RunWith;
                 },
         monochrome = true
         )
-public class AddUserTest {
+public class VerifyNegativeScenairosLoginTest {
 
 }

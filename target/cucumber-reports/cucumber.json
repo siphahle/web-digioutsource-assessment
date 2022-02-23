@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Scenario: Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it",
+        "description": "contains is as expected",
+        "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;scenario:-select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 677069900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyNegativeScenairosLoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14247898300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": a user has loaded the website",
+            "match": {
+              "location": "VerifyNegativeScenairosLoginSteps._a_user_has_loaded_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97271200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ":  a user clicks on the sign in link on the nav top bar",
+            "match": {
+              "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3106626200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": a user enters unregistered \"ginger\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ginger",
+                  "offset": 30
+                }
+              ],
+              "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_unregistered_something(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89177300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": a user enters invalid \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 25
+                }
+              ],
+              "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_invalid_something(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 865261800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": a user clicks on sign in button",
+            "match": {
+              "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33160400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "an error is displayed",
+            "match": {
+              "location": "VerifyNegativeScenairosLoginSteps.an_error_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a QA, I would like to verify all negative scenarios for login",
+    "description": "",
+    "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login",
+    "keyword": "Feature",
+    "uri": "verifyNegativeScenairosLogin.feature"
+  }
+]
