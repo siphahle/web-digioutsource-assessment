@@ -40,7 +40,7 @@ public class SearchSportsRelatedArticlesSteps {
     public void _user_verifies_the_last_article_on_the_page()throws Throwable{
         Thread.sleep(2000);
         String searchSportArticles= TestBase.driver.findElement(By.xpath("//*[@id=\"main-content\"]/div[1]/div[3]/div/div/ul/li[10]/div/div/div[1]/div[1]/a")).getText();
-        String expect="The Women's Sport Show";
+        String expect="The Friday Sports Panel";
         Assert.assertEquals(searchSportArticles, expect);
         System.out.println(expect);
 

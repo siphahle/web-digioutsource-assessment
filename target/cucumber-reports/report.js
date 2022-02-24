@@ -43,47 +43,48 @@ formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_has_loaded_the_browser_the_website_is_running()"
 });
 formatter.result({
-  "duration": 16888817400,
+  "duration": 14253528700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_enters_sports_on_the_search_field()"
 });
 formatter.result({
-  "duration": 94377300,
+  "duration": 119639300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_clicks_on_the_search_icon_a_list_of_articles_is_displayed()"
 });
 formatter.result({
-  "duration": 4956701800,
+  "duration": 7270199400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_first_article_on_the_page()"
 });
 formatter.result({
-  "duration": 2040523200,
+  "duration": 2045939200,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_last_article_on_the_page()"
 });
 formatter.result({
-  "duration": 2045785700,
+  "duration": 2042002100,
+  "error_message": "java.lang.AssertionError: expected [The Women\u0027s Sport Show] but found [The Friday Sports Panel]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.digioutsource.assessment.stepDefinition.SearchSportsRelatedArticlesSteps._user_verifies_the_last_article_on_the_page(SearchSportsRelatedArticlesSteps.java:44)\r\n\tat ✽.When : user verifies the last article on the page(searchSportsRelatedArticles.feature:7)\r\n",
+  "status": "failed"
+});
+formatter.after({
+  "duration": 699061100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 679570400,
+  "duration": 100300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 23700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 61500,
+  "duration": 14400,
   "status": "passed"
 });
 formatter.uri("signInWithEmptyForm.feature");
@@ -211,68 +212,4 @@ formatter.step({
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_has_loaded_the_website()"
-});
-formatter.result({
-  "duration": 13718201500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar()"
-});
-formatter.result({
-  "duration": 73105600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "ginger",
-      "offset": 30
-    }
-  ],
-  "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_unregistered_something(String)"
-});
-formatter.result({
-  "duration": 3090829900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "123456",
-      "offset": 25
-    }
-  ],
-  "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_invalid_something(String)"
-});
-formatter.result({
-  "duration": 74229100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_sign_in_button()"
-});
-formatter.result({
-  "duration": 1404529600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VerifyNegativeScenairosLoginSteps.an_error_is_displayed()"
-});
-formatter.result({
-  "duration": 34048500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 662713300,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 108400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 11200,
-  "status": "passed"
-});
 });
