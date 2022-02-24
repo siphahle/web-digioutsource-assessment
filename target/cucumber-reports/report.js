@@ -43,47 +43,47 @@ formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_has_loaded_the_browser_the_website_is_running()"
 });
 formatter.result({
-  "duration": 12251968100,
+  "duration": 16888817400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_enters_sports_on_the_search_field()"
 });
 formatter.result({
-  "duration": 84834200,
+  "duration": 94377300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_clicks_on_the_search_icon_a_list_of_articles_is_displayed()"
 });
 formatter.result({
-  "duration": 3764940900,
+  "duration": 4956701800,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_first_article_on_the_page()"
 });
 formatter.result({
-  "duration": 2053710800,
+  "duration": 2040523200,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_last_article_on_the_page()"
 });
 formatter.result({
-  "duration": 2053919400,
+  "duration": 2045785700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 678792000,
+  "duration": 679570400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 110200,
+  "duration": 23700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 15300,
+  "duration": 61500,
   "status": "passed"
 });
 formatter.uri("signInWithEmptyForm.feature");
@@ -213,14 +213,14 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_has_loaded_the_website()"
 });
 formatter.result({
-  "duration": 13374713900,
+  "duration": 13718201500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar()"
 });
 formatter.result({
-  "duration": 76075900,
+  "duration": 73105600,
   "status": "passed"
 });
 formatter.match({
@@ -233,7 +233,7 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_unregistered_something(String)"
 });
 formatter.result({
-  "duration": 3553864500,
+  "duration": 3090829900,
   "status": "passed"
 });
 formatter.match({
@@ -246,33 +246,33 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_invalid_something(String)"
 });
 formatter.result({
-  "duration": 86780800,
+  "duration": 74229100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 985965900,
+  "duration": 1404529600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps.an_error_is_displayed()"
 });
 formatter.result({
-  "duration": 31326600,
+  "duration": 34048500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 701481500,
+  "duration": 662713300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 37800,
+  "duration": 108400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 71500,
+  "duration": 11200,
   "status": "passed"
 });
 });

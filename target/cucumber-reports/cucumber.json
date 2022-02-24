@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 678792000,
+              "duration": 679570400,
               "status": "passed"
             },
             "match": {
@@ -19,20 +19,20 @@
           },
           {
             "result": {
-              "duration": 110200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "VerifyNegativeScenairosLoginSteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 15300,
+              "duration": 23700,
               "status": "passed"
             },
             "match": {
               "location": "SearchSportsRelatedArticlesSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 61500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyNegativeScenairosLoginSteps.tearDown()"
             }
           }
         ],
@@ -41,7 +41,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12251968100,
+              "duration": 16888817400,
               "status": "passed"
             },
             "line": 3,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 84834200,
+              "duration": 94377300,
               "status": "passed"
             },
             "line": 4,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 3764940900,
+              "duration": 4956701800,
               "status": "passed"
             },
             "line": 5,
@@ -77,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 2053710800,
+              "duration": 2040523200,
               "status": "passed"
             },
             "line": 6,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 2053919400,
+              "duration": 2045785700,
               "status": "passed"
             },
             "line": 7,
@@ -127,7 +127,7 @@
         "after": [
           {
             "result": {
-              "duration": 701481500,
+              "duration": 662713300,
               "status": "passed"
             },
             "match": {
@@ -136,20 +136,20 @@
           },
           {
             "result": {
-              "duration": 37800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "VerifyNegativeScenairosLoginSteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 71500,
+              "duration": 108400,
               "status": "passed"
             },
             "match": {
               "location": "SearchSportsRelatedArticlesSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyNegativeScenairosLoginSteps.tearDown()"
             }
           }
         ],
@@ -158,7 +158,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13374713900,
+              "duration": 13718201500,
               "status": "passed"
             },
             "line": 4,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 76075900,
+              "duration": 73105600,
               "status": "passed"
             },
             "line": 5,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 3553864500,
+              "duration": 3090829900,
               "status": "passed"
             },
             "line": 6,
@@ -203,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 86780800,
+              "duration": 74229100,
               "status": "passed"
             },
             "line": 7,
@@ -224,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 985965900,
+              "duration": 1404529600,
               "status": "passed"
             },
             "line": 8,
@@ -236,7 +236,7 @@
           },
           {
             "result": {
-              "duration": 31326600,
+              "duration": 34048500,
               "status": "passed"
             },
             "line": 9,

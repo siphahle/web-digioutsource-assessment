@@ -33,6 +33,7 @@ public class SearchSportsRelatedArticlesSteps {
         String expect="BBC Sports News";
         Assert.assertEquals(searchSportArticles, expect);
         System.out.println(expect);
+        System.out.println("****************************************************************************************");
     }
 
     @When("^: user verifies the last article on the page$")
