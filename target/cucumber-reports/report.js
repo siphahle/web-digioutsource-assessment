@@ -1,4 +1,92 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("signInWithEmptyForm.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("searchSportsRelatedArticles.feature");
+formatter.feature({
+  "line": 1,
+  "name": "As a sports user, I would like to read about all articles related to sports",
+  "description": "",
+  "id": "as-a-sports-user,-i-would-like-to-read-about-all-articles-related-to-sports",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 2,
+  "name": "Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.",
+  "description": "",
+  "id": "as-a-sports-user,-i-would-like-to-read-about-all-articles-related-to-sports;use-the-search-option-to-find-all-articles-related-to-‘sports’.-output-the-first-heading-and-the-last-heading-returned-on-the-page.",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 3,
+  "name": ": user  has loaded the browser the website is running",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 4,
+  "name": ": user enters sports on the search field",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 5,
+  "name": ": user clicks on the search icon a list of articles is displayed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": ": user verifies the first article on the page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": ": user verifies the last article on the page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SearchSportsRelatedArticlesSteps._user_has_loaded_the_browser_the_website_is_running()"
+});
+formatter.result({
+  "duration": 12251968100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchSportsRelatedArticlesSteps._user_enters_sports_on_the_search_field()"
+});
+formatter.result({
+  "duration": 84834200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchSportsRelatedArticlesSteps._user_clicks_on_the_search_icon_a_list_of_articles_is_displayed()"
+});
+formatter.result({
+  "duration": 3764940900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_first_article_on_the_page()"
+});
+formatter.result({
+  "duration": 2053710800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_last_article_on_the_page()"
+});
+formatter.result({
+  "duration": 2053919400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 678792000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 110200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 15300,
+  "status": "passed"
+});
+formatter.uri("signInWithEmptyForm.feature");
 formatter.feature({
   "line": 1,
   "name": "As a QA, I would like to verify all negative scenarios for login",
@@ -125,14 +213,14 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_has_loaded_the_website()"
 });
 formatter.result({
-  "duration": 13433298500,
+  "duration": 13374713900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar()"
 });
 formatter.result({
-  "duration": 98096100,
+  "duration": 76075900,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +233,7 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_unregistered_something(String)"
 });
 formatter.result({
-  "duration": 4446074600,
+  "duration": 3553864500,
   "status": "passed"
 });
 formatter.match({
@@ -158,29 +246,33 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_invalid_something(String)"
 });
 formatter.result({
-  "duration": 90758400,
+  "duration": 86780800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 89728800,
+  "duration": 985965900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps.an_error_is_displayed()"
 });
 formatter.result({
-  "duration": 45817200,
+  "duration": 31326600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 690403600,
+  "duration": 701481500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 89100,
+  "duration": 37800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 71500,
   "status": "passed"
 });
 });

@@ -1,6 +1,115 @@
 [
   {
     "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.",
+        "description": "",
+        "id": "as-a-sports-user,-i-would-like-to-read-about-all-articles-related-to-sports;use-the-search-option-to-find-all-articles-related-to-‘sports’.-output-the-first-heading-and-the-last-heading-returned-on-the-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 678792000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInWithEmptyFormSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyNegativeScenairosLoginSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 15300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSportsRelatedArticlesSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12251968100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": ": user  has loaded the browser the website is running",
+            "match": {
+              "location": "SearchSportsRelatedArticlesSteps._user_has_loaded_the_browser_the_website_is_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84834200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": user enters sports on the search field",
+            "match": {
+              "location": "SearchSportsRelatedArticlesSteps._user_enters_sports_on_the_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3764940900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": user clicks on the search icon a list of articles is displayed",
+            "match": {
+              "location": "SearchSportsRelatedArticlesSteps._user_clicks_on_the_search_icon_a_list_of_articles_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2053710800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": user verifies the first article on the page",
+            "match": {
+              "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_first_article_on_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2053919400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": user verifies the last article on the page",
+            "match": {
+              "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_last_article_on_the_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "As a sports user, I would like to read about all articles related to sports",
+    "description": "",
+    "id": "as-a-sports-user,-i-would-like-to-read-about-all-articles-related-to-sports",
+    "keyword": "Feature",
+    "uri": "searchSportsRelatedArticles.feature"
+  },
+  {
+    "line": 1,
     "name": "As a QA, I would like to verify all negative scenarios for login",
     "description": "Scenario : Scenario: Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it\r\ncontains is as expected\r\n  Given : a user loads the website\r\n  When :  a user clicks on the sign in link on the navigation top bar\r\n  When : a user clicks on sign in btn without entering username and password\r\n  Then : validation error messages are displayed",
     "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login",
@@ -18,7 +127,16 @@
         "after": [
           {
             "result": {
-              "duration": 690403600,
+              "duration": 701481500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInWithEmptyFormSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37800,
               "status": "passed"
             },
             "match": {
@@ -27,11 +145,11 @@
           },
           {
             "result": {
-              "duration": 89100,
+              "duration": 71500,
               "status": "passed"
             },
             "match": {
-              "location": "SignInWithEmptyFormSteps.tearDown()"
+              "location": "SearchSportsRelatedArticlesSteps.tearDown()"
             }
           }
         ],
@@ -40,7 +158,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13433298500,
+              "duration": 13374713900,
               "status": "passed"
             },
             "line": 4,
@@ -52,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 98096100,
+              "duration": 76075900,
               "status": "passed"
             },
             "line": 5,
@@ -64,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 4446074600,
+              "duration": 3553864500,
               "status": "passed"
             },
             "line": 6,
@@ -85,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 90758400,
+              "duration": 86780800,
               "status": "passed"
             },
             "line": 7,
@@ -106,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 89728800,
+              "duration": 985965900,
               "status": "passed"
             },
             "line": 8,
@@ -118,7 +236,7 @@
           },
           {
             "result": {
-              "duration": 45817200,
+              "duration": 31326600,
               "status": "passed"
             },
             "line": 9,
