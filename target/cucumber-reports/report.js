@@ -43,48 +43,47 @@ formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_has_loaded_the_browser_the_website_is_running()"
 });
 formatter.result({
-  "duration": 14253528700,
+  "duration": 12998980000,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_enters_sports_on_the_search_field()"
 });
 formatter.result({
-  "duration": 119639300,
+  "duration": 94208300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_clicks_on_the_search_icon_a_list_of_articles_is_displayed()"
 });
 formatter.result({
-  "duration": 7270199400,
+  "duration": 7397929900,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_first_article_on_the_page()"
 });
 formatter.result({
-  "duration": 2045939200,
+  "duration": 2046172400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_last_article_on_the_page()"
 });
 formatter.result({
-  "duration": 2042002100,
-  "error_message": "java.lang.AssertionError: expected [The Women\u0027s Sport Show] but found [The Friday Sports Panel]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.digioutsource.assessment.stepDefinition.SearchSportsRelatedArticlesSteps._user_verifies_the_last_article_on_the_page(SearchSportsRelatedArticlesSteps.java:44)\r\n\tat ✽.When : user verifies the last article on the page(searchSportsRelatedArticles.feature:7)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "duration": 699061100,
+  "duration": 2046035000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 100300,
+  "duration": 647605200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 14400,
+  "duration": 91400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 16100,
   "status": "passed"
 });
 formatter.uri("signInWithEmptyForm.feature");
@@ -212,4 +211,69 @@ formatter.step({
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_has_loaded_the_website()"
+});
+formatter.result({
+  "duration": 13420396100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar()"
+});
+formatter.result({
+  "duration": 79354700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ginger",
+      "offset": 30
+    }
+  ],
+  "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_unregistered_something(String)"
+});
+formatter.result({
+  "duration": 3257506100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "123456",
+      "offset": 25
+    }
+  ],
+  "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_invalid_something(String)"
+});
+formatter.result({
+  "duration": 64326800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_sign_in_button()"
+});
+formatter.result({
+  "duration": 504147300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "VerifyNegativeScenairosLoginSteps.an_error_is_displayed()"
+});
+formatter.result({
+  "duration": 41680100,
+  "error_message": "java.lang.AssertionError: expected [Sorry, that password is too short. It needs to be eight characters or more.] but found [Something\u0027s missing. Please check and try again.]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.digioutsource.assessment.stepDefinition.VerifyNegativeScenairosLoginSteps.an_error_is_displayed(VerifyNegativeScenairosLoginSteps.java:48)\r\n\tat ✽.Then an error is displayed(verifyNegativeScenairosLogin.feature:9)\r\n",
+  "status": "failed"
+});
+formatter.after({
+  "duration": 694686500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 96100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 49600,
+  "status": "passed"
+});
 });
