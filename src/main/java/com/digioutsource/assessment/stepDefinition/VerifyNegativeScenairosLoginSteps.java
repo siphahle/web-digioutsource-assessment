@@ -44,7 +44,7 @@ public class VerifyNegativeScenairosLoginSteps {
     public void an_error_is_displayed(){
 
         String actual_msg= TestBase.driver.findElement(By.xpath("//*[@id=\"form-message-password\"]/p")).getText();
-        String expect="Something's missing. Please check and try again.";
+        String expect="Sorry, that password is too short. It needs to be eight characters or more.";
         Assert.assertEquals(actual_msg, expect);
 
     }

@@ -43,47 +43,47 @@ formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_has_loaded_the_browser_the_website_is_running()"
 });
 formatter.result({
-  "duration": 12998980000,
+  "duration": 11192521300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_enters_sports_on_the_search_field()"
 });
 formatter.result({
-  "duration": 94208300,
+  "duration": 74955800,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_clicks_on_the_search_icon_a_list_of_articles_is_displayed()"
 });
 formatter.result({
-  "duration": 7397929900,
+  "duration": 3474167600,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_first_article_on_the_page()"
 });
 formatter.result({
-  "duration": 2046172400,
+  "duration": 5047435500,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSportsRelatedArticlesSteps._user_verifies_the_last_article_on_the_page()"
 });
 formatter.result({
-  "duration": 2046035000,
+  "duration": 5047085600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 647605200,
+  "duration": 669585700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 91400,
+  "duration": 88500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 16100,
+  "duration": 51400,
   "status": "passed"
 });
 formatter.uri("signInWithEmptyForm.feature");
@@ -213,14 +213,14 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_has_loaded_the_website()"
 });
 formatter.result({
-  "duration": 13420396100,
+  "duration": 12938713000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar()"
 });
 formatter.result({
-  "duration": 79354700,
+  "duration": 95378800,
   "status": "passed"
 });
 formatter.match({
@@ -233,7 +233,7 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_unregistered_something(String)"
 });
 formatter.result({
-  "duration": 3257506100,
+  "duration": 3180400500,
   "status": "passed"
 });
 formatter.match({
@@ -246,34 +246,33 @@ formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_enters_invalid_something(String)"
 });
 formatter.result({
-  "duration": 64326800,
+  "duration": 85405600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps._a_user_clicks_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 504147300,
+  "duration": 69844500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyNegativeScenairosLoginSteps.an_error_is_displayed()"
 });
 formatter.result({
-  "duration": 41680100,
-  "error_message": "java.lang.AssertionError: expected [Sorry, that password is too short. It needs to be eight characters or more.] but found [Something\u0027s missing. Please check and try again.]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat com.digioutsource.assessment.stepDefinition.VerifyNegativeScenairosLoginSteps.an_error_is_displayed(VerifyNegativeScenairosLoginSteps.java:48)\r\n\tat ✽.Then an error is displayed(verifyNegativeScenairosLogin.feature:9)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "duration": 694686500,
+  "duration": 39757600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 96100,
+  "duration": 698266300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 49600,
+  "duration": 36300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 68300,
   "status": "passed"
 });
 });

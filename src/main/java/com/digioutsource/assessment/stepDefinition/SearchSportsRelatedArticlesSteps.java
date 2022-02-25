@@ -28,7 +28,7 @@ public class SearchSportsRelatedArticlesSteps {
     }
     @When("^: user verifies the first article on the page$")
     public void _user_verifies_the_first_article_on_the_page()throws Throwable{
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         String searchSportArticles= TestBase.driver.findElement(By.xpath("//*[@id=\"main-content\"]/div[1]/div[3]/div/div/ul/li[1]/div/div/div[1]/div[1]/a")).getText();
         String expect="BBC Sports News";
         Assert.assertEquals(searchSportArticles, expect);
@@ -38,7 +38,7 @@ public class SearchSportsRelatedArticlesSteps {
 
     @When("^: user verifies the last article on the page$")
     public void _user_verifies_the_last_article_on_the_page()throws Throwable{
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         String searchSportArticles= TestBase.driver.findElement(By.xpath("//*[@id=\"main-content\"]/div[1]/div[3]/div/div/ul/li[10]/div/div/div[1]/div[1]/a")).getText();
         String expect="The Friday Sports Panel";
         Assert.assertEquals(searchSportArticles, expect);
