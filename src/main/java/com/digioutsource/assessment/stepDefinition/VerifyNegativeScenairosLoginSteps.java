@@ -19,7 +19,9 @@ public class VerifyNegativeScenairosLoginSteps {
     }
 
     @When("^:  a user clicks on the sign in link on the nav top bar$")
-    public void _a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar(){
+    public void _a_user_clicks_on_the_sign_in_link_on_the_nav_top_bar() throws Throwable{
+        Thread.sleep(5000);
+
         TestBase.driver.findElement(By.id("idcta-username")).click();
 
     }
